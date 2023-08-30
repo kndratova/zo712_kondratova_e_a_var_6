@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>690</width>
+    <height>510</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>690</width>
+    <height>510</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>690</width>
+    <height>512</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <layout class="QFormLayout" name="formLayout">
+   <item row="3" column="1">
+    <widget class="QFrame" name="frameServiceButtons">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>60</height>
+      </size>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <spacer name="horizontalSpacer_2">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButtonExit">
+        <property name="text">
+         <string>Exit</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <widget class="QLabel" name="label_3">
+     <property name="font">
+      <font>
+       <italic>true</italic>
+       <underline>false</underline>
+      </font>
+     </property>
+     <property name="text">
+      <string>by kndratova</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QGroupBox" name="groupBoxInitialization">
+     <property name="minimumSize">
+      <size>
+       <width>280</width>
+       <height>400</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <layout class="QFormLayout" name="formLayout_2">
+      <item row="0" column="0" colspan="2">
+       <widget class="QLabel" name="label">
+        <property name="frameShape">
+         <enum>QFrame::NoFrame</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Plain</enum>
+        </property>
+        <property name="text">
+         <string>Hello there!
+Please insert the data in the input field below. 
+You can choose between deque with
+vector or linked list structures. 
+After confirming the input, you will be able to 
+perform various operations with this data. 
+Please use SPACE or '\n' as separators. 
+Invalid entries will be excluded.</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0" colspan="2">
+       <widget class="QCheckBox" name="checkBoxTestIngOption">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <italic>true</italic>
+          <bold>false</bold>
+          <strikeout>false</strikeout>
+          <kerning>true</kerning>
+         </font>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::RightToLeft</enum>
+        </property>
+        <property name="autoFillBackground">
+         <bool>true</bool>
+        </property>
+        <property name="text">
+         <string>test summary function template</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QComboBox" name="comboBoxElementType">
+        <property name="minimumSize">
+         <size>
+          <width>130</width>
+          <height>0</height>
+         </size>
+        </property>
+        <item>
+         <property name="text">
+          <string>char</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>unsigned int</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QComboBox" name="comboBoxStorageStructure">
+        <item>
+         <property name="text">
+          <string>linked list</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>vector</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="3" column="0" colspan="2">
+       <widget class="QTextEdit" name="textEditLoadedData"/>
+      </item>
+      <item row="6" column="0">
+       <widget class="QPushButton" name="pushButtonLoadFile">
+        <property name="text">
+         <string>load .txt file</string>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="1">
+       <widget class="QPushButton" name="pushButtonConfirm">
+        <property name="text">
+         <string>CONFIRM</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="QGroupBox" name="groupBoxTesting">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>380</width>
+       <height>400</height>
+      </size>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <layout class="QFormLayout" name="formLayout_3">
+      <item row="3" column="0" colspan="2">
+       <widget class="QFrame" name="frameClassTesting">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_2">
+         <item row="1" column="0">
+          <widget class="QComboBox" name="comboBoxPush">
+           <item>
+            <property name="text">
+             <string>push back</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>push front</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QLineEdit" name="lineEditPushData">
+           <property name="minimumSize">
+            <size>
+             <width>150</width>
+             <height>0</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="2">
+          <widget class="QPushButton" name="pushButtonPush">
+           <property name="text">
+            <string>push</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QComboBox" name="comboBoxPop">
+           <item>
+            <property name="text">
+             <string>pop back</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>pop front</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item row="2" column="2">
+          <widget class="QPushButton" name="pushButtonPop">
+           <property name="text">
+            <string>pop</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item row="1" column="0" colspan="2">
+       <widget class="QTextBrowser" name="textBrowserInitialData"/>
+      </item>
+      <item row="4" column="0" colspan="2">
+       <widget class="QFrame" name="frameFunctionTesting">
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>60</height>
+         </size>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <item>
+          <widget class="QLabel" name="label_2">
+           <property name="text">
+            <string>all positive array  
+elements summary : </string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QTextBrowser" name="textBrowserPositiveSum">
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>40</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
